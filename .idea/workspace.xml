@@ -1,82 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16582339-c39c-4bf3-bfce-193874042862" name="Default Changelist" comment="code sync">
-      <change afterPath="$PROJECT_DIR$/springboot-logging/src/main/java/com/legend/springboot/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-logging/src/main/java/com/legend/springboot/intercepter/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_legend_legend_springboot_starter_self_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="16582339-c39c-4bf3-bfce-193874042862" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/z-study-demo/src/main/java/com/example/demo/StudyDemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/legend-user/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/UserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/config/MvcConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/interceptor/MyInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legend-user/target/classes/com/legend/user/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/springboot-activiti.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/LeaveApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/LeaveApplyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/LoginMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/PurchaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/PurchaseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/css/style_v1.css" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/css/style_v1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/css/style_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/css/style_v2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/deptleaderaudit.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/deptleaderaudit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/devoops.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/devoops.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/finance.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/finance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/historyprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/historyprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/historypurchaseprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/historypurchaseprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/hraudit.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/hraudit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/manager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/modifyapply.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/modifyapply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/myleaveprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/myleaveprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/myleaves.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/myleaves.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/mypurchase.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/mypurchase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/pay.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/pay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/permissionadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/permissionadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/processlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/processlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/purchasemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/purchasemanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/receiveitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/receiveitem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/reportback.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/reportback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/roleadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/roleadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/updateapply.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/updateapply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/useradmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/static/js/useradmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/deptleaderaudit.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/deptleaderaudit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/historyprocess.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/historyprocess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/hraudit.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/hraudit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/leaveapply.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/leaveapply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/modifyapply.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/modifyapply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/myleaveprocess.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/myleaveprocess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/myleaves.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/myleaves.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/processlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/processlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/reportback.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/activiti/reportback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/fail.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/fail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/failcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/failcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/finance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/historypurchaseprocess.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/historypurchaseprocess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/mypurchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/mypurchase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/purchaseapply.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/purchaseapply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/purchasemanager.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/purchasemanager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/receiveitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/receiveitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/updateapply.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/purchase/updateapply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/permissionadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/permissionadmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/roleadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/roleadmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/useradmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-activiti/target/classes/templates/system/useradmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z-study-demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/z-study-demo/target/" />
@@ -185,20 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/legend-user/src/main/java/com/legend/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-logging/src/main/java/com/legend/springboot/SpringbootLoggingApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/z-study-demo/src/main/java/com/example/demo/StudyDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -324,6 +251,61 @@
             <path>
               <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="legend-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
               <item name="redis-lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,6 +360,51 @@
               <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-logging" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootSelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="z-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -395,7 +422,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599892572905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599902010009" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -784,7 +811,7 @@
       <workItem from="1599816191872" duration="2792000" />
       <workItem from="1599831841049" duration="17708000" />
       <workItem from="1599872738596" duration="8433000" />
-      <workItem from="1599892143769" duration="455000" />
+      <workItem from="1599892143769" duration="1217000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1595515516205</created>
@@ -961,11 +988,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599892458603</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="code sync">
+      <created>1599892627682</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599892627682</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100682000" />
+    <option name="totallyTimeSpent" value="101663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -988,13 +1022,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4953083" weight="0.33286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49463806" weight="0.3371105" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053619" side_tool="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Tail" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49932975" visible="true" weight="0.30736545" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49597856" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5007553" side_tool="true" weight="0.46896553" />
@@ -1083,17 +1117,6 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="自定义" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -1123,7 +1146,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="【UPDATE】 SpringBoot整合Swagger2接口测试编写配置类以及测试" />
     <MESSAGE value="【ADD】 SpringBoot整合Redis缓存-创建项目" />
     <MESSAGE value="【ADD】 SpringBoot整合Redis缓存-编写RedisTemplate接口测试和相关配置" />
     <MESSAGE value="解决冲突" />
@@ -1148,33 +1170,10 @@
     <MESSAGE value="[UPDATE] springboot整合Schedule任务调度定时任务和异步处理Async" />
     <MESSAGE value="[UPDATE] jenkins持续部署学习" />
     <MESSAGE value="[UPDATE] springboot整合Redisson实现redis的分布式锁高并发场景下的线程问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE] springboot整合Redisson实现redis的分布式锁高并发场景下的线程问题" />
+    <MESSAGE value="code sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="code sync" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/qcl/datasource/config/DynamicDataSourceContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/qcl/datasource/SpringbootDataSourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-logging/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1542,8 +1541,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/redis/lock/controller/KillItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
+        <state relative-caret-position="148">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/legend-user/src/main/java/com/legend/user/config/MvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/legend-user/src/main/java/com/legend/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-study-demo/src/main/java/com/example/demo/StudyDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
