@@ -1,0 +1,39 @@
+#spring:
+#  application:
+#    name: oms-setting-rpc-service
+#  redis:
+#    timeout: 6000ms
+#    lettuce:
+#      pool:
+#        min-idle: 5
+#        max-idle: 50
+#        max-active: 100
+#        max-wait: -1ms
+#    host: 127.0.0.1
+#    port: 6379
+#    #password: cx68jk17h3
+#jetcache:
+#  statIntervalMinutes: 0
+#  areaInCacheName: false
+#  local:
+#    default:
+#      type: caffeine
+#      limit: 100
+#      keyConvertor: fastjson
+#      expireAfterWriteInMillis: 100000
+#  remote:
+#    default:
+#      type: redis.springdata
+#      keyConvertor: fastjson
+#      valueEncoder: java
+#      valueDecoder: java
+#jeesuite:
+#  mybatis:
+#    crudDriver: default
+#    dbType: Mysql
+#    cacheEnabled: false
+#    nullValueCache: false
+#    cacheExpireSeconds: 300
+#    dynamicExpire: false
+#    rwRouteEnabled: true
+#    paginationEnabled: true

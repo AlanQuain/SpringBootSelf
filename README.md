@@ -288,3 +288,22 @@ systemctl restart docker
 
 
 >解决方法：调用方法和恢复方法的返回值需要一致
+
+
+
+### 在局域网的两台电脑如何实现相互访问mysql数据库
+
+![](https://img2020.cnblogs.com/blog/1231979/202108/1231979-20210809151008386-1873887475.png)
+
+
+- 1.把mysql库中user表中的一条记录的Host字段值改为%,奇怪的是一定要用以下语句设置一下密码才行
+- 2.update user set Password=PASSWORD("123456")WHERE Host="%";
+- 3.执行flush privileges;命令使立即生效
+
+
+```sql
+INSERT INTO `mysql`.`user`(`Host`, `User`, `Password`, `Select_priv`, `Insert_priv`, `Update_priv`, `Delete_priv`, `Create_priv`, `Drop_priv`, `Reload_priv`, `Shutdown_priv`, `Process_priv`, `File_priv`, `Grant_priv`, `References_priv`, `Index_priv`, `Alter_priv`, `Show_db_priv`, `Super_priv`, `Create_tmp_table_priv`, `Lock_tables_priv`, `Execute_priv`, `Repl_slave_priv`, `Repl_client_priv`, `Create_view_priv`, `Show_view_priv`, `Create_routine_priv`, `Alter_routine_priv`, `Create_user_priv`, `Event_priv`, `Trigger_priv`, `Create_tablespace_priv`, `ssl_type`, `ssl_cipher`, `x509_issuer`, `x509_subject`, `max_questions`, `max_updates`, `max_connections`, `max_user_connections`, `plugin`, `authentication_string`, `password_expired`) VALUES ('%', 'root', '*6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', '', '', '', '', 0, 0, 0, 0, 'mysql_native_password', '', 'N');
+
+```
+![](https://img2020.cnblogs.com/blog/1231979/202108/1231979-20210809151103530-1363879100.png)
+

@@ -25,6 +25,28 @@
 缓存原指CPU上的一种高速存储器,它先于内存与CPU交换数据,速度很快。现在泛指存储在计算机上的原始数据的复制集,便于快速访问。
 
 
+## Redis高效的核心要素
+- 高速的存储介质  (存储介质随机访问延迟：机械硬盘--》10ms  固态硬盘--》100us  内存条--》150ns   单位换算：1000)
+- 优良的底层数据结构  底层是HashMap 时间复杂度是O(1)
+- 高效的网络IO模型  epoll  kqueue
+- 高效的线程模型  IO多线程，执行单线程
+
+## Redis分析
+**redis底层是hashtable**
+
+
+- 数组的下标索引计算：
+hash(key) %hashtable.size=[0,hashtable.size-1]
+ 
+
+- 产生hash冲突(采用链表法  next指针)
+hash(key) %hashtable.size= 7
+hash(key1) %hashtable.size= 7
+
+指针next指向可以是：头插法和尾插法
+
+>redis使用的是头插法,需要数据在下一次会被访问到。hash冲突越来越多的时候会进行成倍的扩容
+
 
 ## 缓存的读写模式
 
@@ -128,6 +150,21 @@ Redis解决了这一个问题，将登陆成功后的session信息，存放在Re
 Redis是一个key-value的存储系统，key的类型是字符串
 
 Redis中常见的value的数据类型，有五种，string，list，hash，set，zset
+
+key类型设计：
+string->
+   1.char[] data="legend\0"
+   2.SDS：simple dynamic string
+      key：data="sdfgdss\0fgdhshsjs"
+
+redis的源码分析
+   在server.h  --> redisDb.h 头文件里面
+   dict字典
+
+
+>相同的类型(type)  底层的编码(encoding)也会不相同
+>同一个类型在内存中用不同的数据结构存储这种就是编码
+ 
 
 
 ### String字符串类型
