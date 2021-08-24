@@ -30,15 +30,6 @@ public class WXT {
         map.put("package", "mch_id=XXXXXX");
         map.put("signType", signTypeName);
 
-        /*String stringA =
-                "appid=wx904f31e4501b9cf4"
-                        + "&nonceStr=" + randomString
-                        + "&package=mch_id=1438841402"
-                        + "&signType=MD5&timeStamp=" + timeStamp.toString();
-        System.out.println("stringA：" + stringA);
-
-        String stringSignTemp = stringA + "&key=Guoyaokongguguodayaofangshanghai";*/
-
         String sign = null;
         try {
             sign = WXPayUtil.generateSignature(map, "XXX", signType);
